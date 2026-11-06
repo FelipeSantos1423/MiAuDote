@@ -1,0 +1,186 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %><!DOCTYPE html><html><head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder></head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Garante estrutura flex para fixar o footer embaixo */
+        html, body {
+            height: 100%;
+        }
+
+        #form1 {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            flex: 1;
+        }
+
+       header{
+           margin: 0;
+           display: flex;
+           flex-direction:row;
+           justify-content: space-between;
+           background-color: #D6C7BC;
+           padding: 12px 20px; 
+           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+       }
+       .logo-nav{
+           display: flex;
+           flex-direction: row;
+           gap: 10px;
+           align-items: center; 
+           color: #2D1F17;
+       }
+
+       .logo-nav img{
+           width: 60px;
+           height: 60px;
+       }
+
+       .nav-bar {
+           display: flex;
+           flex-direction: row;
+           gap: 20px; 
+           align-items: center; 
+       }
+
+       .nav-bar a{
+           color: #5C463C;
+           text-decoration: none;
+       }
+
+       .nav-bar a:hover{
+           color: #C95A3B;
+           text-decoration: underline; 
+       }
+       
+       footer{
+            background-color: #2D1F17;
+            padding: 30px 20px 20px 20px; 
+            color: #FCFAF7;
+       }
+
+       .footer-topo{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           align-items: flex-start;
+           padding: 10px 0; 
+           gap: 40px;
+       }
+
+       .footer-nav, .footer-ong, .footer-apoie,
+       .footer-redes{
+           display: flex;
+           flex-direction: column;
+           gap: 12px;
+           flex: 1;
+       }
+
+       .footer-nav a, .footer-ong a, .footer-apoie a,
+        .footer-redes a{
+           color: #D6C7BC;
+           text-decoration: none;
+        }
+
+       .footer-nav a:hover, .footer-ong a:hover, .footer-apoie a:hover,
+       .footer-redes a:hover{
+           color: #C95A3B;
+           text-decoration: underline;
+        }
+
+       .logo-footer img{
+           width: 30px;
+           height: 30px;
+       }
+
+       .logo-footer{
+           display:flex;
+           flex-direction: row;
+           gap: 2px;
+           align-items:center;
+       }
+
+       .footer-nav p{
+           font-size: 14px;
+           color: #D6C7BC;
+           max-width: 250px;
+       }
+
+       .footer-rodape {
+           text-align: center;
+           font-size: 13px;
+           color: #D6C7BC;
+       }
+    </style><body>
+    <form id="form1" runat="server">
+        <header>
+            <div class="logo-nav">
+                <img src="imagens/LogoMark.png" alt="Logo MiAuDote">
+                <h2>MiAuDote</h2>
+            </div>
+            <nav class="nav-bar">
+                <a href="home.aspx">Home</a>
+                <a href="#">Adotar</a>
+                <a href="#">Como funciona</a>
+                <a href="#">Histórias</a>
+                <a href="#">como ajudar</a>
+                <a href="#">FAQ</a>
+            </nav>
+        </header>
+
+        <main class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </main>
+
+        <footer>
+            <div class="footer-topo">
+                <div class="footer-nav">
+                    <div class="logo-footer">
+                        <img src="imagens/LogoMark.png">
+                        <h3>MiAuDote</h3>
+                     </div>
+                    <p>Conectando corações solitários a quatro patas cheias de amor. Juntos, transformamos abandono em finais felizes.</p>
+                </div>
+
+                <div class="footer-ong">
+                    <h3>ONG</h3>
+                    <a href="#">Sobre nós</a>
+                    <a href="#">Animais</a>
+                    <a href="#">Histórias</a>
+                    <a href="#">Transparência</a>
+                </div>
+
+                <div class="footer-apoie">
+                    <h3>Apoie</h3>
+                    <a href="#">Fazer doação</a>
+                    <a href="#">Voluntariado</a>
+                    <a href="#">Lar temporário</a>
+                    <a href="#">Parcerias</a>
+                </div>
+
+                <div class="footer-redes">
+                    <h3>Redes sociais</h3>
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">WhatsApp</a>            
+                </div>
+            </div>
+            <br />
+            <hr style="border: none; height: 1px; background-color: #5C463C; margin: 20px 0;" />
+            <div class="footer-rodape">
+                <p>&copy; 2026 MiauDote. CNPJ 12.345.678/0001-90. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </form></body></html>
