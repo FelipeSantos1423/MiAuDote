@@ -10,7 +10,6 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        /* Garante estrutura flex para fixar o footer embaixo */
         html, body {
             height: 100%;
         }
@@ -30,7 +29,7 @@
            display: flex;
            flex-direction:row;
            justify-content: space-between;
-           background-color: #D6C7BC;
+           background-color: #FFFFFF;
            padding: 12px 20px; 
            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
        }
@@ -111,7 +110,7 @@
            align-items:center;
        }
 
-       .footer-nav p{
+       .footer-nav{
            font-size: 14px;
            color: #D6C7BC;
            max-width: 250px;
@@ -131,11 +130,11 @@
             </div>
             <nav class="nav-bar">
                 <a href="home.aspx">Home</a>
-                <a href="#">Adotar</a>
-                <a href="#">Como funciona</a>
-                <a href="#">Histórias</a>
-                <a href="#">como ajudar</a>
-                <a href="#">FAQ</a>
+                <a href="home.aspx#Adotar">Adotar</a>
+                <a href="home.aspx#ComoFunciona">Como funciona</a>
+                <a href="home.aspx#Ajudar">como ajudar</a>
+                <a href="home.aspx#FAQ">FAQ</a>
+                <a href="home.aspx#Contato">Contato</a>
             </nav>
         </header>
 
@@ -156,18 +155,14 @@
 
                 <div class="footer-ong">
                     <h3>ONG</h3>
-                    <a href="#">Sobre nós</a>
-                    <a href="#">Animais</a>
-                    <a href="#">Histórias</a>
-                    <a href="#">Transparência</a>
+                    <a href="sobreNos.aspx">Sobre nós</a>
+                    <a href="animaiAdocao.aspx">Animais</a>
                 </div>
 
                 <div class="footer-apoie">
                     <h3>Apoie</h3>
-                    <a href="#">Fazer doação</a>
-                    <a href="#">Voluntariado</a>
-                    <a href="#">Lar temporário</a>
-                    <a href="#">Parcerias</a>
+                    <a href="doacoes.aspx">Fazer doação</a>
+                    <a href="inscricoesVoluntario.aspx">Voluntariado</a>
                 </div>
 
                 <div class="footer-redes">
@@ -180,7 +175,7 @@
             <br />
             <hr style="border: none; height: 1px; background-color: #5C463C; margin: 20px 0;" />
             <div class="footer-rodape">
-                <p>&copy; 2026 MiauDote. CNPJ 12.345.678/0001-90. Todos os direitos reservados.</p>
+                <p class="p-footer">&copy; 2026 MiauDote. CNPJ 12.345.678/0001-90. Todos os direitos reservados.</p>
             </div>
         </footer>
     </form></body></html>
