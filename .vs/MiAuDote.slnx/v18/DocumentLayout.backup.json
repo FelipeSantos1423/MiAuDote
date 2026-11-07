@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Fatec_projects\\Web\\MiAuDote\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D45EF1D-36FB-0E99-0772-6C3F002C21AB}|D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote|D:\\Fatec_projects\\Web\\MiAuDote\\miaudote\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{0D45EF1D-36FB-0E99-0772-6C3F002C21AB}|D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote|solutionrelative:miaudote\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{0D45EF1D-36FB-0E99-0772-6C3F002C21AB}|D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote|d:\\fatec_projects\\web\\miaudote\\miaudote\\inscricaovoluntario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0D45EF1D-36FB-0E99-0772-6C3F002C21AB}|D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote|solutionrelative:miaudote\\inscricaovoluntario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D45EF1D-36FB-0E99-0772-6C3F002C21AB}|D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote|d:\\fatec_projects\\web\\miaudote\\miaudote\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{0D45EF1D-36FB-0E99-0772-6C3F002C21AB}|D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote|D:\\Fatec_projects\\Web\\MiAuDote\\miaudote\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{0D45EF1D-36FB-0E99-0772-6C3F002C21AB}|D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote|solutionrelative:miaudote\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D45EF1D-36FB-0E99-0772-6C3F002C21AB}|D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote|D:\\Fatec_projects\\Web\\MiAuDote\\miaudote\\sobrenos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{0D45EF1D-36FB-0E99-0772-6C3F002C21AB}|D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote|solutionrelative:miaudote\\sobrenos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D45EF1D-36FB-0E99-0772-6C3F002C21AB}|D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote|d:\\fatec_projects\\web\\miaudote\\miaudote\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0D45EF1D-36FB-0E99-0772-6C3F002C21AB}|D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote|solutionrelative:miaudote\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D45EF1D-36FB-0E99-0772-6C3F002C21AB}|D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote|D:\\Fatec_projects\\Web\\MiAuDote\\miaudote\\manual.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InscricaoVoluntario.aspx",
+              "DocumentMoniker": "D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote\\InscricaoVoluntario.aspx",
+              "RelativeDocumentMoniker": "MiAuDote\\InscricaoVoluntario.aspx",
+              "ToolTip": "D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote\\InscricaoVoluntario.aspx",
+              "RelativeToolTip": "MiAuDote\\InscricaoVoluntario.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-11-07T00:36:37.124Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -38,11 +55,12 @@
               "RelativeToolTip": "MiAuDote\\sobreNos.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-11-06T22:05:59.592Z"
+              "WhenOpened": "2026-11-06T22:05:59.592Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "manual.aspx",
               "DocumentMoniker": "D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote\\manual.aspx",
               "RelativeDocumentMoniker": "MiAuDote\\manual.aspx",
@@ -54,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "home.aspx",
               "DocumentMoniker": "D:\\Fatec_projects\\Web\\MiAuDote\\MiAuDote\\home.aspx",
               "RelativeDocumentMoniker": "MiAuDote\\home.aspx",
